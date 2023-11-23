@@ -106,6 +106,10 @@ a:active {
   text-decoration: none;
 }
 
+.font_color{
+  color: black;
+}
+
 .navigation-header {
   display: flex;
   justify-content: space-between;
@@ -115,14 +119,29 @@ a:active {
 }
 
 .navigation {
+  background-color: #f2f2f2;
+  padding: 10px;
+  border: 3px solid;
+  border-radius: 5px;
   display: flex;
   gap: 10px;
 }
 
-.navigation.a {
+.navigation a {
+  margin: 0 10px;
   text-decoration: none;
-  border: 3px solid;
+  color: #333;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 0.3s;
+  text-decoration: none;
+  /* border: 3px solid; */
 }
+
+.navigation a:hover {
+  border-bottom: 2px solid #333;
+
+}
+
 .title-header {
   display: flex;
   flex-direction: column;
@@ -146,7 +165,7 @@ a:active {
   align-items: center;
 }
 
-.testimony h2 {
+.testimony p {
   font-style: italic;
 }
 
@@ -155,6 +174,19 @@ a:active {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+}
+
+.logo2-img {
+  max-width: 25px;
+  max-height: 25px;
+  padding: 10px;
+  object-fit: cover;
+}
+
+.logo-img {
+  max-width: 100px;
+  max-height: 100px;
+  object-fit: cover;
 }
 
 .profile-img {
@@ -193,10 +225,11 @@ a:active {
 .message-us {
   flex-basis: 30%;
   flex-grow: 0;
-  background-color: darkcyan;
+  background-color: lightgray;
   border-radius: 8px;
   max-height: 500px;
-  padding: 10px;
+  padding: 25px;
+  /* text-align: center; */
 }
 
 .input-message-us {
@@ -222,7 +255,7 @@ a:active {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  background-color: gray;
+  background-color: lightgray;
   color: white;
   width: 100%;
   font-size: 30px;
@@ -246,7 +279,7 @@ a:active {
 
 .closing {
   text-align: center;
-  background-color: gray;
+  background-color: lightgray;
   color: white;
   padding: 10px 0;
 }
@@ -258,6 +291,24 @@ a:active {
 /* responsive design */
 @media screen and (max-width: 600px) {
   .title-header {
-    background-color: red;
+    background-color: lightgray;
+    padding: 20px;
+    font-size: 20px;
   }
 }
+@media screen and (min-width: 600px){
+
+
+}
+@media screen and (min-width: 768px){
+  
+}
+@media screen and (min-width: 992px){
+  
+}
+@media screen and (max-width: 1200px){
+  
+}
+
+
+

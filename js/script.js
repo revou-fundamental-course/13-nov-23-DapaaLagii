@@ -18,7 +18,7 @@ submitButton[0].addEventListener("click", function (event) {
 // });
 
 // bikin list image
-const images = ["assets/bg.jpg", "assets/bg2.jpg", "assets/bg3.jpg"];
+const images = ["assets/bg.jpg", "assets/bg2.jpg", "assets/bg3.jpg","assets/bg4.png","assets/bg5.png","assets/bg6.png","assets/bg7.png" ];
 
 // fungsi penambahan i dan autoslider gambar
 var i = 0;
@@ -31,6 +31,6 @@ function bannerSlide() {
 }
 
 // otomasi run funsi bannerSlide
-setInterval(bannerSlide, 1000);
+setInterval(bannerSlide, 4000);
 
 console.log("cobain pull request");

@@ -10,20 +10,25 @@
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Roboto:ital,wght@0,400;1,300&display=swap"
       rel="stylesheet" />
+
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
   </head>
   <body>
     <header>
       <section class="navigation-header">
-        <a href="">Logo</a>
-        <nav class="navigation">
-          <a href="">Home</a>
-          <a href="">Our Package</a>
-          <a href="">Call Us</a>
-        </nav>
+        <img src="assets/image.png" class="logo-img">
+        
+        <div>
+          <nav class="navigation">
+            <a href="">Home</a>
+            <a href="">Our Package</a>
+            <a href="">Call Us</a>
+          </nav>
+        </div>       
       </section>
       <section class="title-header">
         <h1>Your best travel agent</h1>
-        <h4>Your happiness is tes happiness</h4>
+        <p>Your happiness is our happiness</p>
       </section>
     </header>
 
@@ -33,54 +38,69 @@
           <section class="review-section">
             <img src="assets/bg.jpg" id="slider" />
             <div class="testimony">
-              <h2>I like to go to this canyon using ID Travel Agent</h2>
+              <p>"I like to go to this canyon using ID Travel Agent"</p>
               <div class="testimony-account">
                 <img src="assets/user.png" class="profile-img" />
-                <div class="account-profile">
-                  <h3>Florence Hughes</h3>
-                  <p>Ibu rumah tangga, 28</p>
+                <div class="account-profile">               
+                  <b>Florence Hughes</b>
+                  <label>Ibu rumah tangga, 28</label>                 
                 </div>
               </div>
             </div>
             <section class="hero-under">
               <h3>
                 Use this space to provide users with information about your
-                offer
+                offer.Consider it a follow-up to your headline and explain the benefits 
+                of your service or product.
               </h3>
               <div>
-                <p>1. Your first...</p>
-                <p>2. Your second...</p>
-                <p>3. Your third...</p>
+               
+                <p>1. Your first feauture, written in the form of a benefit statement.</p>
+                <p>2. Your second feauture, written in the form of a benefit statement.</p>
+                <p>3. Your third feauture, written in the form of a benefit statement.</p>
               </div>
             </section>
           </section>
           <section class="message-us">
             <h5>Contact Us</h5>
-            <h6>Sales akan menghubungi anda</h6>
+            <h6>Sales akan menghubungi anda 1x24 jam setelah data kami terima</h6>
+
             <form class="input-message-us">
               <label for="name-input">First Name</label>
               <input
                 type="text"
                 id="name-input"
                 placeholder="First and Last Name" />
+
               <label for="email-input">Email</label>
               <input
                 type="text"
                 id="email-input"
                 placeholder="example@gmail.com" />
-              <button type="button" class="primary-button">Submit</button>
+
+              <label for="interests-dropdown">Apa yang Anda Sukai</label>
+              <select id="interests-dropdown">
+                <option value="music">Musik</option>
+                <option value="movies">Film</option>
+                <option value="sports">Olahraga</option>
+                <option value="books">Buku</option>
+                <option value="travel">Traveling</option>
+              </select>
+
+              <button type="button" class="primary-button">SEND</button>
+              
             </form>
-            <h6 id="username"></h6>
+            
           </section>
         </section>
       </section>
       <section class="our-package">
         <section class="package-header">
-          <h1>OUR PACKAGE</h1>
+          <h1 class="font_color">OUR PACKAGE</h1>
         </section>
         <section class="location-list">
           <div class="location">
-            <p>logo</p>
+            <img src="assets/star.png" class="logo2-img" />
             <div class="location-detail">
               <p>Bali</p>
               <p>
@@ -91,9 +111,9 @@
             </div>
           </div>
           <div class="location">
-            <p>logo</p>
+            <img src="assets/star.png" class="logo2-img" />
             <div class="location-detail">
-              <p>Bali</p>
+              <p>Lombok</p>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Dolorum, quis consequatur! Aliquam aut, velit excepturi quas
@@ -102,9 +122,9 @@
             </div>
           </div>
           <div class="location">
-            <p>logo</p>
+            <img src="assets/star.png" class="logo2-img" />
             <div class="location-detail">
-              <p>Bali</p>
+              <p>Paris</p>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Dolorum, quis consequatur! Aliquam aut, velit excepturi quas
@@ -113,9 +133,9 @@
             </div>
           </div>
           <div class="location">
-            <p>logo</p>
+            <img src="assets/heart.png" class="logo2-img" />
             <div class="location-detail">
-              <p>Bali</p>
+              <p>Japan</p>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Dolorum, quis consequatur! Aliquam aut, velit excepturi quas
@@ -124,9 +144,9 @@
             </div>
           </div>
           <div class="location">
-            <p>logo</p>
+            <img src="assets/heart.png" class="logo2-img" />
             <div class="location-detail">
-              <p>Bali</p>
+              <p>Korea</p>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Dolorum, quis consequatur! Aliquam aut, velit excepturi quas
@@ -135,9 +155,9 @@
             </div>
           </div>
           <div class="location">
-            <p>logo</p>
+            <img src="assets/heart.png" class="logo2-img" />
             <div class="location-detail">
-              <p>Bali</p>
+              <p>Singapore</p>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Dolorum, quis consequatur! Aliquam aut, velit excepturi quas
@@ -148,17 +168,17 @@
         </section>
       </section>
       <section class="closing">
-        <h1>Closing argument</h1>
-        <h5>
+        <h1 class="font_color">Your Closing Argument Headline</h1>
+        <p class="font_color">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi eveniet
           assumenda aut molestias tenetur. Natus?
-        </h5>
-        <button type="button" class="primary-button">Submit</button>
+        </p>
+        <button type="button" class="primary-button">CALL TO ACTION</button>
       </section>
     </main>
 
     <footer class="footer">
-      <p>logo</p>
+      <img src="assets/image.png" class="logo-img">
       <p>Terms of service || Privacy policy</p>
       <p>@2019 || Moqups</p>
     </footer>
