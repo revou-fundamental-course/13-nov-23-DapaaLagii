@@ -5,6 +5,7 @@
   justify-content: space-between;
   align-items: center;
   height: min-content;
+  margin: 1rem;
 }
 
 .navigation {
@@ -14,8 +15,10 @@
 
 .navigation.a {
   text-decoration: none;
+  border: 3px solid;
 }
 .title-header {
+  background-color: green;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -36,8 +39,13 @@
 }
 
 .review-section {
-  max-width: 100%;
+  max-width: 90%;
+
   max-height: 50%;
+}
+
+.review-section img {
+  max-width: 100%;
 }
 
 .message-us {
@@ -54,4 +62,11 @@
 
 button {
   margin-left: 24px;
+}
+
+/* responsive design */
+@media screen and (max-width: 600px) {
+  .title-header {
+    background-color: red;
+  }
 }
